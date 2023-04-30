@@ -1,0 +1,46 @@
+/*Selector {
+    Property: value;
+}*/
+
+* {
+    text-align: right;
+}
+
+body {
+     background-image: url(backgroundimage.jpg);
+     background-size: cover;
+}
+
+h2 + p {
+    color: #A23645;
+    text-align: center;
+    border: 5px solid rbg(162, 54, 69);
+    cursor: pointer ;
+}
+
+p {
+    text-decoration: line-through;
+}
+
+li {
+    list-style: none;
+    display: inline-block ;
+}
+
+.webtext:first-child {
+    border: 5px dashed rgb(255, 255, 255);
+}
+
+.active {
+    color: red ;
+}
+#div1 {
+    background: rgba(0, 0, 255, 0.2);
+}
+#div2 {
+    background: rgba(255, 0, 0, 0.2);
+}
+
+
+
+

@@ -1,0 +1,56 @@
+/*Selector {
+Property: value;
+}*/
+
+body {
+    background-color: black;
+    background-size: cover;
+    list-style-type: circle;
+
+} 
+
+h3, h2 {
+    text-align: center;
+    border: 5px solid rbg(162, 54, 69);
+    cursor: pointer;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #ffffff;
+
+}
+
+h1 {
+    text-align: center;
+    border: 5px solid rbg(162, 54, 69);
+    cursor: pointer;
+    font-family: fantasy;
+    color: #ffffff;
+
+}
+
+.navLinks{
+    font-family:fantasy;
+    font-size: 1.6em;
+    margin:7px;
+    color:white;
+    text-decoration: none;
+}
+
+nav{
+    background-color: black;
+    height:80px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.frame {
+    width: 700px;
+    height: 250px;
+    margin: auto;
+    padding: 15px 10px;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}

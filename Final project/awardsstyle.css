@@ -1,0 +1,63 @@
+/*Selector {
+Property: value;
+}*/
+
+body {
+    background-color: black;
+    background-size: cover;
+    list-style-type: circle;
+    
+    
+}
+
+.navLinks{
+    font-size: 1.6em;
+    margin:7px;
+    color:white;
+    text-decoration: none;
+}
+
+nav{
+    font-family: fantasy;
+    background-color: black;
+    height:80px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    color: white;
+    font-family: fantasy;
+    text-align: center;
+
+}
+
+.card{
+    border:1px solid rgb(255, 255, 255);
+    width:300px;
+    margin:10px;
+}
+
+#container{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.frame {
+    width: 200px;
+    height: 250px;
+    margin: auto;
+    
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+
+

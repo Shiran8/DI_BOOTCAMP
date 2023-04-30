@@ -1,0 +1,54 @@
+selector {
+property : value
+} */
+
+/* tag selector */
+h1 {
+border: 2px
+}
+
+ul li {
+    background-color:  color red;
+}
+
+h3 + p {
+
+
+}
+
+/* all the siblings */
+
+h3 ~ p {
+
+}
+
+/* style p next to h3 */
+
+h3 + p {
+}
+
+/* all the div in the element that has a class of ocean */
+
+.ocean div {
+border: 2px solid orangered
+background-color: yellow
+}
+
+/* overrule inline */
+display: inline-block
+
+/* * means all the elements */
+
+/* by default div is display: block
+Means that the div will spread to take the space of the whole
+we override the default, the div should take only the space that we set */
+
+/* position: static - default */
+
+/* position: relative -  to move text */
+
+/* position: absolute - element is taken out of the flow move it wherever depending on the window  */
+
+/* position: fixed - elemnt not moves while scrolling */
+
+/* position: sticky - stays on screen when passing while scrolling */

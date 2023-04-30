@@ -1,0 +1,49 @@
+/*Selector {
+Property: value;
+}*/
+
+body {
+    background-image: url("Byonce.webp");
+    background-size: cover;
+    font-family: "tahoma";
+    text-align: center;
+    text-decoration: none;
+    
+} 
+
+h1, p {
+    font-family: fantasy;
+    text-align: center;
+    cursor: pointer;
+    color: #ffffff;
+}
+
+
+
+.navLinks{
+    text-align: up;
+    font-family: fantasy;
+    font-size: 1.6em;
+    margin:7px;
+    color:white;
+    text-decoration: none;
+  
+}
+
+nav{
+    background-color: black;
+    height:80px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section {
+    text-align-last: margin-bottom;
+    color:white;
+    margin:7px;
+    font-size: 1.6em;
+    font-family: fantasy;
+    text-decoration: none;
+}
+
