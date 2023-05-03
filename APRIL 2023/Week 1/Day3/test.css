@@ -1,0 +1,45 @@
+div {
+  text-align: center;
+  color: black;
+  font-size: 1.5em;
+}
+
+.name {
+  background-color: #a4e6a4;
+}
+
+.Contact {
+  background-color: #ceaaf0;
+}
+
+.Profile {
+  background-color: #f288d5;
+}
+
+.Education {
+  background-color: #438eea;
+}
+
+.Experience {
+  background-color: #f4ed79;
+}
+
+.redbox {
+  background-color: #f8394f;
+}
+
+.columns {
+  display: grid;
+  height: 200px;
+  border: 2px solid black;
+  /* grid-template-columns: 100px 50px 130px; */
+  /* grid-template-columns: 1fr repeat(100, 2fr); */
+  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 2rem 4rem;
+}
+
+.name {
+  grid-column: 1 / span 2;
+  /* start at column 1 and take the same of 2 columns */
+}

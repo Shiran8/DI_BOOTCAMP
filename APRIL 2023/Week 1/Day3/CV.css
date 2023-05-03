@@ -1,0 +1,68 @@
+* {
+  background-color: #ffffff;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas:
+    "contact profile"
+    "education experience";
+}
+
+.box {
+  border: 10px solid #ccc;
+  padding: 30px;
+}
+
+.image-container img {
+  position: absolute;
+  top: 17px;
+  right: 18px;
+  width: 130px;
+  height: 146px;
+}
+
+.name {
+  grid-area: name;
+}
+
+.contact {
+  grid-area: contact;
+  border-left: #ccc;
+  border-bottom: #ccc;
+}
+
+.profile {
+  grid-area: profile;
+  border-bottom: #ccc;
+  border-right: #ccc;
+}
+
+.education {
+  grid-area: education;
+  border-bottom: #ccc;
+  border-left: #ccc;
+  border-top: #ccc;
+}
+
+.expierence {
+  grid-area: experience;
+  border-top: #ccc;
+  border-right: #ccc;
+  border-bottom: #ccc;
+}
+
+h2 {
+  margin-top: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+  margin-bottom: 20px;
+}

@@ -1,0 +1,36 @@
+body {
+  background: rgb(233, 238, 240);
+  padding: 0;
+  margin: 0;
+}
+
+.container{
+  display: grid;
+}
+
+.contact, .expierence {
+  grid-column: 4 / span 2;
+  /* start at column 1 and take the same of 2 columns */
+  width: 50%;
+  float: left;
+
+}
+
+.profile, .eduation {
+  grid-column: 4 / span 2;
+  /* start at column 1 and take the same of 2 columns */
+  width: 50%;
+  float: right;
+  }
+
+  
+
+/*.line {
+  content: ;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 50%;
+  height: 1px;
+  background-color: black;
+}
