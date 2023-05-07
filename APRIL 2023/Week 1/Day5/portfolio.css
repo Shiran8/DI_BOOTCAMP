@@ -1,0 +1,61 @@
+body {
+  background-color: rgb(17, 38, 57);
+}
+
+header {
+  background-color: rgb(17, 38, 57);
+}
+
+.wrap {
+  width: 40%;
+  margin-left: auto;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  word-spacing: 1rem;
+  background-color: rgb(17, 38, 57);
+  color: white;
+  height: 35px;
+  margin-top: 20px;
+}
+.navbar-brand {
+  text-decoration: none;
+  color: white;
+}
+.section1 {
+  background-color: rgb(17, 38, 57);
+  color: white;
+  font-size: x-large;
+  font-family: Georgia, 'Times New Roman', Times, serif
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+button {
+  font-style: oblique;
+  border-radius: 8px;
+  border: none;
+  color: rgb(17, 38, 57);
+  width: 100px;
+  text-align: left;
+  text-decoration: none;
+}
+
+.image {
+    margin-top: -220px;
+    float: right;
+    height: -50px;
+    position: relative
+
+}
+
+.section2 {
+  border: 6px solid rgb(17, 38, 57);
+  background-color: rgb(17, 38, 57);
+  color: white;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.section3 {
+color: white;
+}
