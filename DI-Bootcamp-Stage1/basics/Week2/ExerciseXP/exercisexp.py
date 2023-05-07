@@ -38,6 +38,36 @@ print({info})
 
 
 # Exercise 6
+a = 20
+b = 40
+print({a})
+print({b})
+
+# Exercise 7
+number=int (input("give me a number"))
+
+# Exercise 8
+input("please state your name:")
+print("please state your name:")
+
+# Exercise 9
+height = "150cm"
+height = input("what is your height in inches:")
+print("what is your height in inches:")
+
+age = 15
+height = 150
+
+# both condition need to be true
+if height >= 145 :
+    print("tall enough to ride")
+else :
+    print("you can go")
+
+if height >= 140 :
+    print("go to disneyland")
+else :
+    print("grow some more to ride")
 
 
 
